@@ -55,7 +55,7 @@ public class OrdersDaoImpl implements OrdersDao {
                 User = new Users(rs.getString("fio"));
                 Firm = new Firms(rs.getString("title"));
                 order.setIdOreder(rs.getInt("id_oreder"));    
-                order.setUserData(User);
+                order.SetUser(User);
                 order.setFirm(Firm);
                 order.setDatatime(rs.getString("datatime"));
                 order.setCost(rs.getInt("cost"));

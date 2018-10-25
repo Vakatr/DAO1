@@ -86,8 +86,4 @@ public class Orders{
         this.idFirm = idFirm;
     }
 
-    public void setUserData(Users User) {
-       this.Custom=User;
-    }
-
 }
